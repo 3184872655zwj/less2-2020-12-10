@@ -1,0 +1,61 @@
+.mixi(@size ,@dire ,@color){
+    float: left;
+   border: @size solid transparent;
+    border-@{dire}-color:@color ;
+}
+
+.folat(){
+    float: left;
+}
+
+// 第一个ul
+.one{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px ,right , red);
+    }
+    li:nth-child(2){
+        .mixi(30px,right , blue);
+    }
+
+}
+
+// // 第二个ul
+.two{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px , top , red);
+    }
+    li:nth-child(2){
+        .mixi(30px,top , black);
+    }
+}
+// // 第三个ul
+.three{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px,left,red);
+    }
+    li:nth-child(2){
+        .mixi(30px,left,blue);
+    }
+}
+// // 第四个ul
+.four{
+    list-style: none;
+    .folat();
+    li:nth-child(1){
+        .mixi(40px,bottom,red);
+    }
+    li:nth-child(2){
+        .mixi(30px,bottom,blue);
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}

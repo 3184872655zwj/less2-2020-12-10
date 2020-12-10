@@ -1,0 +1,60 @@
+.one {
+  list-style: none;
+  float: left;
+}
+.one li:nth-child(1) {
+  float: left;
+  border: 40px solid transparent;
+  border-right-color: red;
+}
+.one li:nth-child(2) {
+  float: left;
+  border: 30px solid transparent;
+  border-right-color: blue;
+}
+.two {
+  list-style: none;
+  float: left;
+}
+.two li:nth-child(1) {
+  float: left;
+  border: 40px solid transparent;
+  border-top-color: red;
+}
+.two li:nth-child(2) {
+  float: left;
+  border: 30px solid transparent;
+  border-top-color: black;
+}
+.three {
+  list-style: none;
+  float: left;
+}
+.three li:nth-child(1) {
+  float: left;
+  border: 40px solid transparent;
+  border-left-color: red;
+}
+.three li:nth-child(2) {
+  float: left;
+  border: 30px solid transparent;
+  border-left-color: blue;
+}
+.four {
+  list-style: none;
+  float: left;
+}
+.four li:nth-child(1) {
+  float: left;
+  border: 40px solid transparent;
+  border-bottom-color: red;
+}
+.four li:nth-child(2) {
+  float: left;
+  border: 30px solid transparent;
+  border-bottom-color: blue;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
